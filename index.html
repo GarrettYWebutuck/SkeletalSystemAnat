@@ -24,6 +24,7 @@
 				color:white;
 				line-height:60px;
 				margin:0;
+				float:left;
 			}
 			#navBar a{
 				color:white;
@@ -39,6 +40,15 @@
 				margin:0;
 				padding:0;
 			}
+			.navSel{
+				padding:0 20px;
+			}
+			.dropdown{
+				display:none;
+			}
+			.navSel:hover .dropdown{
+				display:block;
+			}
 		</style>
   	</head>
   	<body>
@@ -48,8 +58,10 @@
 					<h2>Skeletal System</h2>
 					<div class="navSel">
 						<a href="#">Quick Links</a>
-						<div class="selection">
-							<a href="#">Sample Text</a>
+						<div class="dropdown">
+							<div class="selection">
+								<a href="#">Sample Text</a>
+							</div>
 						</div>
 					</div>
 				</div>
