@@ -1,2 +1,0 @@
-# SkeletalSystemAnat
-The Skeletal System
